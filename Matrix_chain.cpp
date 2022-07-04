@@ -24,14 +24,6 @@ void chained(int n,int d[]){
       m[i][j]=smol;
     }
   }
-  //m matrix output
-  /*for(int i=0;i<=n;i++){
-      for(int j=0;j<=n;j++){
-          cout<<m[i][j]<<" ";
-      }
-      cout<<endl;
-  }*/
-  
   cout<<"Minimum number of multiplications are : "<<m[1][n];
   
 }
